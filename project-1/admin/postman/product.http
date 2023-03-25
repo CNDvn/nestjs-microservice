@@ -1,0 +1,28 @@
+@URL=http://localhost:8000/api/products
+
+### get all
+GET {{URL}}/
+
+### get by id
+GET {{URL}}/2
+
+### update by id
+PUT {{URL}}/4
+Content-Type: application/json
+
+{
+    "title":"a11231",
+    "image":"aasddfas"
+}
+
+### create
+POST {{URL}}/
+Content-Type: application/json
+
+{
+    "title":"Nike",
+    "image":"http:image"
+}
+
+### delete
+DELETE  {{URL}}/6

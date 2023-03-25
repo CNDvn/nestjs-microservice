@@ -1,0 +1,10 @@
+@URL=http://localhost:8001/api/products
+
+### get all
+GET {{URL}}/
+
+### get by id
+GET {{URL}}/1
+
+### like
+POST {{URL}}/7/like
